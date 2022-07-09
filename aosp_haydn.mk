@@ -11,6 +11,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from haydn device
 $(call inherit-product, device/xiaomi/haydn/device.mk)
 
+# Pixel Launcher 
+$(call inherit-product, vendor/PixelLauncher/PixelLauncher.mk)
+
 # Inherit some common Project Elixir stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -20,7 +23,6 @@ CUSTOM_BUILD_TYPE := OFFICIAL
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
 TARGET_INCLUDE_STOCK_ACORE := false
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
-FORCE_LAWNCHAIR := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_haydn
