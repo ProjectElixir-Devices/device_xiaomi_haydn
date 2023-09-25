@@ -3,7 +3,7 @@ echo 'Starting to clone stuffs needed to build for Haydn'
 # Device common
 echo 'Cloning Common device tree'
 rm -rf device/xiaomi/sm8350-common
-git clone --depth=1 https://github.com/INCENDIOCODM/android_device_xiaomi_sm8350-common -b Elixir-13 device/xiaomi/sm8350-common
+git clone --depth=1 https://github.com/ProjectElixir-Devices/device_xiaomi_sm8350-common -b haydn device/xiaomi/sm8350-common
 
 # Kernel
 echo 'Cloning Kernel tree'
