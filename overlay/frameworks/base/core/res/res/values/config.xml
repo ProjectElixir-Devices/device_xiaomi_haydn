@@ -284,6 +284,18 @@
     <integer name="config_autoBrightnessBrighteningLightDebounce">1000</integer>
     <integer name="config_autoBrightnessDarkeningLightDebounce">1000</integer>
 
+    <!-- The list of package IDs that are allowed to use aux cameras.
+         NOTE: If this list is empty then all apps will be able to use aux cameras. -->
+    <string-array name="config_cameraAuxPackageAllowList" translatable="false">
+        <item>com.android.camera</item>
+        <item>org.lineageos.aperture</item>
+        <item>org.lineageos.aperture.dev</item>
+        <item>org.derpfest.flash</item>
+        <item>org.derpfest.flash.dev</item>
+        <item>com.crdroid.faceunlock</item>
+        <item>org.pixelexperience.faceunlock</item>
+    </string-array>
+
     <!--The bounding path of the cutout region of the main built-in display.
         Must either be empty if there is no cutout region, or a string that is parsable by
         {@link android.util.PathParser}.
