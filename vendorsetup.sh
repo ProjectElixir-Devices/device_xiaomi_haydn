@@ -30,4 +30,8 @@ echo 'Cloning Hardware xiaomi'
 rm -rf hardware/xiaomi
 git clone --depth=1 https://github.com/LineageOS/android_hardware_xiaomi -b lineage-20 hardware/xiaomi
 
+# Hardware-Display
+rm -rf hardware/qcom-caf/sm8350/display
+git clone https://github.com/Evolution-X/hardware_qcom-caf_sm8350_display -b udc hardware/qcom-caf/sm8350/display
+
 echo 'delete vendorsetup.sh from device tree once this is done'
