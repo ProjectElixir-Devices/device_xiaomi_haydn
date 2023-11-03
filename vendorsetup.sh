@@ -34,4 +34,9 @@ git clone --depth=1 https://github.com/LineageOS/android_hardware_xiaomi -b line
 rm -rf hardware/qcom-caf/sm8350/display
 git clone https://github.com/Evolution-X/hardware_qcom-caf_sm8350_display -b udc hardware/qcom-caf/sm8350/display
 
+# Camera
+echo 'Cloning Leica camera'
+git clone --depth=1 https://github.com/xiaomi-haydn-devs/vendor_xiaomi_haydn-miuicamera -b fourteen-leica vendor/xiaomi/haydn-miuicamera
+
 echo 'delete vendorsetup.sh from device tree once this is done'
+
