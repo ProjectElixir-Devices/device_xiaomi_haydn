@@ -13,12 +13,12 @@ git clone --depth=1 https://github.com/ProjectElixir-Devices/kernel_xiaomi_sm835
 # Vendor
 echo 'Cloning Vendor tree'
 rm -rf vendor/xiaomi/haydn
-git clone --depth=1 https://github.com/INCENDIOCODM/proprietary_vendor_xiaomi_haydn -b lineage-20 vendor/xiaomi/haydn
+git clone https://github.com/xiaomi-haydn-devs/proprietary_vendor_xiaomi_haydn -b lineage-21 vendor/xiaomi/haydn
 
 # Vendor common
 echo 'Cloning Common vendor tree'
 rm -rf vendor/xiaomi/sm8350-common
-git clone --depth=1 https://github.com/INCENDIOCODM/proprietary_vendor_xiaomi_sm8350-common -b lineage-20 vendor/xiaomi/sm8350-common
+git clone https://github.com/xiaomi-haydn-devs/proprietary_vendor_xiaomi_sm8350-common -b lineage-21 vendor/xiaomi/sm8350-common
 
 # Firmware
 echo 'Cloning Firmware'
