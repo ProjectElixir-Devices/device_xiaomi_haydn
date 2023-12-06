@@ -36,7 +36,7 @@ git clone https://github.com/Evolution-X/hardware_qcom-caf_sm8350_display -b udc
 
 # Camera
 echo 'Cloning Leica camera'
-git clone --depth=1 https://github.com/xiaomi-haydn-devs/vendor_xiaomi_haydn-miuicamera -b fourteen-leica vendor/xiaomi/haydn-miuicamera
+git clone --depth=1 https://gitlab.com/Alucard_Storm/haydn-miuicamera  -b fourteen-leica vendor/xiaomi/haydn-miuicamera
 
 # Leica patch
 echo 'Adding Leica camera patch'
