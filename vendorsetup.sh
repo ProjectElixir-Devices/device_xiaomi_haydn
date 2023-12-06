@@ -75,4 +75,8 @@ patch -p1 <0003-BootReceiver-Return-early-if-trace-pipe-doesnt-exists.patch
 patch -p1 <0004-Remove-USB-charging-notification.patch
 cd ../..
 
+# libprotobuf-ccq
+rm -rf hardware/lineage/compat
+git clone https://github.com/LineageOS/android_hardware_lineage_compat -b lineage-21.0 hardware/lineage/compat 
+
 echo 'delete vendorsetup.sh from device tree once this is done'

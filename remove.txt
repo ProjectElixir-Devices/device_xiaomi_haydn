@@ -3,3 +3,4 @@ kernel/xiaomi/
 vendor/xiaomi/
 hardware/xiaomi
 hardware/qcom-caf/sm8350/display
+hardware/lineage/compat
