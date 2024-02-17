@@ -80,4 +80,7 @@ cd ../..
 rm -rf hardware/lineage/compat
 git clone https://github.com/LineageOS/android_hardware_lineage_compat -b lineage-21.0 hardware/lineage/compat 
 
+rm -rf vendor/qcom/opensource/vibrator
+git clone --depth=1 https://github.com/PixelExperience/vendor_qcom_opensource_vibrator vendor/qcom/opensource/vibrator
+
 echo 'delete vendorsetup.sh from device tree once this is done'
